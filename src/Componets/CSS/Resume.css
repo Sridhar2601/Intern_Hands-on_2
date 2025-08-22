@@ -1,0 +1,11 @@
+.logo-icon{
+            display: inline;
+            color: white;
+            border: 1px solid black;
+            border-radius: 10px;
+            font-size: 20px;
+            width: 50px;
+            height: 50px;
+            align-content: center;
+            background-color: black;
+        }

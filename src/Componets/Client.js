@@ -1,0 +1,18 @@
+import './CSS/Client.css';
+import Skill from './Skill';
+export default function Client(){
+    return(
+        <div className="text-center my-5">
+            <p style={{textAlign:'center'}}>My awesome clients</p>
+            <div className="d-flex flex-wrap justify-content-center align-items-center gap-4">
+                <img src="https://themewagon.github.io/Next.js-Tailwind-CSS-Portfolio-Template/logos/logo-coinbase.svg" alt="coinbase" id="i"></img>
+                <img src="https://themewagon.github.io/Next.js-Tailwind-CSS-Portfolio-Template/logos/logo-spotify.svg" alt="spotify" id="i"></img>
+                <img src="https://themewagon.github.io/Next.js-Tailwind-CSS-Portfolio-Template/logos/logo-pinterest.svg" alt="pinterest" id="i"></img>
+                <img src="https://themewagon.github.io/Next.js-Tailwind-CSS-Portfolio-Template/logos/logo-google.svg" alt="google" id="i"></img>
+                <img src="https://themewagon.github.io/Next.js-Tailwind-CSS-Portfolio-Template/logos/logo-amazon.svg" alt="amazon" id="i"></img>
+                <img src="https://themewagon.github.io/Next.js-Tailwind-CSS-Portfolio-Template/logos/logo-netflix.svg" alt="netflix" id="i"></img>
+            </div>
+            <Skill />
+        </div>
+    );
+}
