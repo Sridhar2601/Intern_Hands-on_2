@@ -3,7 +3,7 @@ import Skill from './Skill';
 export default function Client(){
     return(
         <div className="text-center my-5">
-            <p style={{textAlign:'center'}}>My awesome clients</p>
+            <p style={{textAlign:'center'}}>My Clients</p>
             <div className="d-flex flex-wrap justify-content-center align-items-center gap-4">
                 <img src="https://themewagon.github.io/Next.js-Tailwind-CSS-Portfolio-Template/logos/logo-coinbase.svg" alt="coinbase" id="i"></img>
                 <img src="https://themewagon.github.io/Next.js-Tailwind-CSS-Portfolio-Template/logos/logo-spotify.svg" alt="spotify" id="i"></img>
