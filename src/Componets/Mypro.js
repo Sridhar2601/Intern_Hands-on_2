@@ -110,7 +110,9 @@ import Resume from './Resume';
 export default function Mypro() {
     return (
         <div className="my-5 container">
-            <h1 className="text-center mb-3">My Projects</h1>
+            <h2 className="fw-bold mb-3 text-center" style={{ fontSize: '2rem' }}>
+                My Projects
+            </h2>
             <p className="text-center mb-5" style={{ fontSize: '1rem', color: 'gray' }}>
                 Whether you have a mobile app idea that needs to come to<br /> 
                 life or a website that requires a facelift, I'm here to turn your <br />
@@ -184,7 +186,7 @@ export default function Mypro() {
 
             </div>
 
-            <div className="row g-4">
+            <div className="row g-4 mt-3">
                 {/* Project Card 1 */}
                 <div className="col-12 col-md-6 col-lg-3" data-aos="fade-up-right">
                     <div className="card h-100">
